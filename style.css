@@ -1,7 +1,7 @@
 
 /* Styles pour la page d'index (index.html) */
 body.index {
-    background-image: url('image/backgroundindex.jpg');
+    background-image: url('image/endless-constellation.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,14 +9,14 @@ body.index {
   
   /* Styles pour la deuxième page (page2.html) */
   body.pages2 {
-    background-image: url('image/backgroundpages2.jpg');
+    background-image: url('image/endless-constellation.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   body.pages3 {
-    background-image: url('image/backgroundpages3.jpg');
+    background-image: url('image/endless-constellation.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -59,7 +59,7 @@ body.index {
 }
 
 /* Style pour la catégorie active (sélectionnée) */
-.active {
+.category:active {
   background-color: #e74c3c;
   border-color: #e74c3c;
 }
