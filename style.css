@@ -85,3 +85,26 @@ body.index {
   font-size: 50px;
   margin-top: 20px;
 }
+
+.title3 {
+  color: white;
+}
+
+.soustitle {
+  color: white;
+  margin: 5px;
+}
+
+.soustitle2 {
+  color: white;
+  margin: 10px;
+}
+
+.paragraphe {
+  color: white;
+  margin: 20px;
+}
+
+.image {
+  margin: 20px;
+}
