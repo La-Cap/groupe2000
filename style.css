@@ -59,7 +59,7 @@ body.index {
 }
 
 /* Style pour la catégorie active (sélectionnée) */
-.active {
+.category:active {
   background-color: #e74c3c;
   border-color: #e74c3c;
 }
