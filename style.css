@@ -1,7 +1,7 @@
 
 /* Styles pour la page d'index (index.html) */
 body.index {
-    background-image: url('image/backgroundindex.jpg');
+    background-image: url('image/endless-constellation.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,14 +9,14 @@ body.index {
   
   /* Styles pour la deuxième page (page2.html) */
   body.pages2 {
-    background-image: url('image/backgroundpages2.jpg');
+    background-image: url('image/endless-constellation.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   body.pages3 {
-    background-image: url('image/backgroundpages3.jpg');
+    background-image: url('image/endless-constellation.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,7 +28,7 @@ body.index {
   display: flex;
   padding: 15px 20px; /* Réduire l'espacement autour du texte */
   text-align: center;
-  background-color: #3498db;
+  background-color: #4c11cc;
   color: #fff;
   margin: 10px; /* Réduire l'espacement horizontal entre les boutons */
   cursor: pointer;
@@ -38,7 +38,7 @@ body.index {
   font-family: Helvetica, sans-serif;
   transition: background-color 0.3s;
   text-decoration: none;
-  border: 2px solid #3498db;
+  border: 2px solid #4c11cc;
 }
 
 .categories
@@ -54,14 +54,14 @@ body.index {
 
 /* Style pour les catégories au survol */
 .category:hover {
-  background-color: #2980b9;
-  border-color: #2980b9;
+  background-color: #6015bc;
+  border-color: #6015bc;
 }
 
 /* Style pour la catégorie active (sélectionnée) */
-.active {
-  background-color: #e74c3c;
-  border-color: #e74c3c;
+.category:active {
+  background-color: #000000;
+  border-color: #000000;
 }
 
 /* Style pour le conteneur de catégories */
@@ -81,7 +81,7 @@ body.index {
 /* Style pour le titre */
 .title {
   text-align: center;
-  color: #000000;
+  color: #ffffff;
   font-size: 50px;
   margin-top: 20px;
 }
